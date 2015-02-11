@@ -10,7 +10,7 @@ syn keyword log4nWarn WARN
 syn keyword log4nError ERROR
 syn keyword log4nFatal FATAL
 
-syn match log4nDate /\d\d\d\?\d\?[./-]\d\d[./-]\d\d\d\?\d\? \d\d[:.]\d\d[:.]\d\d/
+syn match log4nDate /\d\d\d\?\d\?[./-]\d\d[./-]\d\d\d\?\d\? \d\d[:.]\d\d[:.]\d\d\(,\d\d\d\)\?/
 
 syn match log4nKeyword /^Caused by:/
 syn match log4nKeyword /^\s\+at\>/
